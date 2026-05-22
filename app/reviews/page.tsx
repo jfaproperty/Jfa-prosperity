@@ -8,12 +8,12 @@ export const metadata: Metadata = {
 }
 
 const reviews = [
-  { name: 'Maria G.', city: 'San Antonio, TX', stars: 5, text: 'JFA Properties made the whole process completely stress-free. Got a fair offer the next day and closed in two weeks. Highly recommend!' },
-  { name: 'Robert D.', city: 'Houston, TX', stars: 5, text: 'I was worried about the condition of my house but they bought it completely as-is. No repairs, no showings — just a fair cash offer and a smooth closing.' },
-  { name: 'Tanya W.', city: 'Dallas, TX', stars: 5, text: 'Professional, honest, and local. JFA Properties is the real deal for selling fast in Texas. They treated me with respect and explained everything clearly.' },
-  { name: 'Carlos M.', city: 'Austin, TX', stars: 5, text: 'I inherited a property that needed a lot of work. JFA Properties gave me a fair offer and handled everything. I did not have to lift a finger.' },
-  { name: 'Debra H.', city: 'Fort Worth, TX', stars: 5, text: 'Going through a tough time and needed to sell quickly. JFA was compassionate, fast, and fair. I had cash in hand in 10 days. Unbelievable service.' },
-  { name: 'Marcus T.', city: 'El Paso, TX', stars: 5, text: 'No games, no gimmicks. They gave me a real offer, explained it thoroughly, and closed on the date I needed. Would use them again in a heartbeat.' },
+  { name: 'Maria G.', city: 'San Antonio, TX', text: 'JFA Properties made the whole process completely stress-free. Got a fair offer the next day and closed in two weeks. Highly recommend!' },
+  { name: 'Robert D.', city: 'Houston, TX', text: 'They bought my house completely as-is. No repairs, no showings, no open houses — just a fair cash offer and a smooth closing.' },
+  { name: 'Tanya W.', city: 'Dallas, TX', text: 'Professional, honest, and local. JFA Properties is the real deal for selling fast in Texas.' },
+  { name: 'Carlos M.', city: 'Austin, TX', text: 'I inherited a property that needed a lot of work. JFA gave me a fair offer and handled everything.' },
+  { name: 'Debra H.', city: 'Fort Worth, TX', text: 'Going through a tough time and needed to sell quickly. JFA was compassionate, fast, and fair. Cash in hand in 10 days.' },
+  { name: 'Marcus T.', city: 'El Paso, TX', text: 'No games, no gimmicks. They gave me a real offer and closed on the date I needed.' },
 ]
 
 export default function ReviewsPage() {
@@ -33,7 +33,7 @@ export default function ReviewsPage() {
             {reviews.map((r, i) => (
               <FadeUp key={r.name} delay={i * 80}>
                 <div className="bg-brand-50 rounded-2xl p-7 border border-brand-100 hover:border-brand-300 transition-all hover:shadow-md h-full flex flex-col">
-                  <div className="text-yellow-400 text-sm mb-3">{'★'.repeat(r.stars)}</div>
+                  <div className="text-yellow-400 text-sm mb-3">★★★★★</div>
                   <p className="text-gray-700 leading-relaxed italic flex-1 mb-5">{r.text}</p>
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-brand-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
@@ -52,15 +52,13 @@ export default function ReviewsPage() {
       </div>
 
       <div className="py-16 bg-brand-700 text-white text-center">
-        <FadeUp>
-          <div className="max-w-2xl mx-auto px-4">
-            <h2 className="font-display text-3xl font-bold mb-4">Ready to Join Our Happy Sellers?</h2>
-            <p className="text-blue-100 mb-8">Get your free cash offer — no pressure, no obligation.</p>
-            <Link href="/contact" className="inline-block bg-white text-brand-700 font-bold px-10 py-4 rounded-xl hover:bg-blue-50 transition-colors shadow-xl">
-              Get My Free Cash Offer
-            </Link>
-          </div>
-        </FadeUp>
+        <div className="max-w-2xl mx-auto px-4">
+          <h2 className="font-display text-3xl font-bold mb-4">Ready to Join Our Happy Sellers?</h2>
+          <p className="text-blue-100 mb-8">Get your free cash offer — no pressure, no obligation.</p>
+          <Link href="/contact" className="inline-block bg-white text-brand-700 font-bold px-10 py-4 rounded-xl hover:bg-blue-50 transition-colors shadow-xl">
+            Get My Free Cash Offer
+          </Link>
+        </div>
       </div>
     </div>
   )
