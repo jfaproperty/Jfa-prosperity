@@ -7,11 +7,8 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
   const [submitted, setSubmitted] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!agreed.nonMarketing || !agreed.privacy) return
-    setSubmitted(true)
-  }
-
+    e.preventDefault()  }
+if (!agreed.privacy) return
   if (submitted) {
     return (
       <div className="text-center py-8">
