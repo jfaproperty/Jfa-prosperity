@@ -8,8 +8,7 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()  }
-if (!agreed.privacy) return
-  if (submitted) {
+ if (submitted) {
     return (
       <div className="text-center py-8">
         <div className="text-5xl mb-4">🎉</div>
