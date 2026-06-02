@@ -27,7 +27,7 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-lg bg-brand-600 flex items-center justify-center text-white font-display font-bold text-lg">
                 J
               </div>
-              <span className="font-display font-bold text-xl">JFA Properties</span>
+              <span className="font-display font-bold text-xl">JFA <Property></Property></span>
             </div>
             <p className="text-blue-200 text-sm leading-relaxed mb-4">
               We buy houses for cash across Texas. Fair offers, no hassle, close on your timeline.
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-brand-800 mt-12 pt-8 text-center text-blue-300 text-sm">
-          © {new Date().getFullYear()} JFA Properties LLC. All rights reserved.
+          © {new Date().getFullYear()} JFA Property. All rights reserved.
         </div>
       </div>
     </footer>
