@@ -95,7 +95,7 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
 
       <button
         type="submit"
-         {false}
+         disabled={false}
         className="w-full bg-brand-600 hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-4 rounded-lg text-base transition-all shadow-lg hover:shadow-brand-500/30 hover:-translate-y-0.5 active:translate-y-0"
       >
         Get My Free Cash Offer →
