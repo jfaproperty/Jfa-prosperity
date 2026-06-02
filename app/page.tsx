@@ -25,7 +25,7 @@ export default function HomePage() {
 
       <div className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="font-display text-4xl font-bold text-brand-900 mb-6">Why Sell to JFA Properties?</h2>
+          <h2 className="font-display text-4xl font-bold text-brand-900 mb-6">Why Sell to JFA Property?</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
             <div className="bg-brand-50 rounded-2xl p-6">
               <div className="text-4xl mb-4">🔨</div>
