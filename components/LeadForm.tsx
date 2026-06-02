@@ -80,7 +80,7 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
         <label className="flex items-start gap-2.5 cursor-pointer">
           <input
             type="checkbox"
-            required
+            
             checked={agreed.privacy}
             onChange={(e) => setAgreed({ ...agreed, privacy: e.target.checked })}
             className="mt-1 accent-brand-600 w-4 h-4 flex-shrink-0"
@@ -95,7 +95,7 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
 
       <button
         type="submit"
-        disabled={!agreed.nonMarketing || !agreed.privacy}
+         {false}
         className="w-full bg-brand-600 hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-4 rounded-lg text-base transition-all shadow-lg hover:shadow-brand-500/30 hover:-translate-y-0.5 active:translate-y-0"
       >
         Get My Free Cash Offer →
