@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-brand-800 mt-12 pt-8 text-center text-blue-300 text-sm">
-          © {new Date().getFullYear()} JFA Property. All rights reserved.
+          © {new Date().getFullYear()} JFA Properties. All rights reserved.
         </div>
       </div>
     </footer>
