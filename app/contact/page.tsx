@@ -30,7 +30,7 @@ export default function ContactPage() {
           <FadeUp delay={150}>
             <div className="space-y-6">
               <div>
-                <h3 className="font-display text-2xl font-bold text-brand-800 mb-3">Why JFA Properties?</h3>
+                <h3 className="font-display text-2xl font-bold text-brand-800 mb-3">Why JFA Property?</h3>
                 <p className="text-gray-600 leading-relaxed">
                   We are a local Texas company dedicated to making the home-selling experience fast, fair, and completely stress-free. No repairs. No fees. No drama.
                 </p>
