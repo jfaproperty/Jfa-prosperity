@@ -32,7 +32,7 @@ export default function Navbar() {
             J
           </div>
           <span className={`font-display font-bold text-xl tracking-tight transition-colors ${scrolled ? 'text-brand-800' : 'text-white'}`}>
-            JFA Properties
+            JFA Property
           </span>
         </Link>
 
