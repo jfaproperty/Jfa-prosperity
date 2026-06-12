@@ -63,7 +63,7 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
             className="mt-1 accent-brand-600 w-4 h-4 flex-shrink-0"
           />
           <span className="text-xs text-gray-500 leading-relaxed">
-            I agree to receive non-marketing SMS messages from JFA Property LLC regarding cash offer updates, property evaluations, and closing coordination. Msg & data rates may apply. Reply STOP to unsubscribe.
+I agree to receive non-marketing SMS messages from JFA Property LLC regarding cash offer updates, property evaluations, and closing coordination. Msg & data rates may apply. Reply STOP to unsubscribe. Reply HELP for customer service. Message frequency varies.
           </span>
         </label>
         <label className="flex items-start gap-2.5 cursor-pointer">
@@ -74,7 +74,7 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
             className="mt-1 accent-brand-600 w-4 h-4 flex-shrink-0"
           />
           <span className="text-xs text-gray-500 leading-relaxed">
-            I agree to receive marketing SMS messages from JFA Property LLC regarding promotional offers. Reply STOP to unsubscribe.
+I agree to receive marketing SMS messages from JFA Property LLC regarding promotional offers. Reply STOP to unsubscribe. Reply HELP for customer service. Message frequency varies. Message and data rates may apply.
           </span>
         </label>
         <label className="flex items-start gap-2.5 cursor-pointer">
