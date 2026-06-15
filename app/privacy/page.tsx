@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function PrivacyPage() {
   return (
@@ -17,6 +16,7 @@ export default function PrivacyPage() {
             <h2 className="text-2xl font-bold text-brand-900 mb-4">Privacy Policy</h2>
             <p>JFA Property LLC ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or submit a form to receive a cash offer.</p>
           </div>
+import Link from "next/link";
 
           <div>
             <h3 className="text-xl font-bold text-brand-800 mb-3">Information We Collect</h3>
