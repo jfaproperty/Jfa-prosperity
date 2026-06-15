@@ -63,20 +63,11 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
             className="mt-1 accent-brand-600 w-4 h-4 flex-shrink-0"
           />
           <span className="text-xs text-gray-500 leading-relaxed">
-I agree to receive non-marketing SMS messages from JFA Property LLC regarding cash offer updates, property evaluations, and closing coordination. Msg & data rates may apply. Reply STOP to unsubscribe. Reply HELP for customer service. Message frequency varies.
-          </span>
-        </label>
-        <label className="flex items-start gap-2.5 cursor-pointer">
-          <input
-            type="checkbox"
-            checked={agreed.marketing}
-            onChange={(e) => setAgreed({ ...agreed, marketing: e.target.checked })}
-            className="mt-1 accent-brand-600 w-4 h-4 flex-shrink-0"
-          />
+I agree to receive non-marketing SMS messages from JFA Property LLC regarding cash offer updates, p...            type="checkbox"
+I agree to receive non-marketing SMS messages from JFA Property LLC regarding cash offer updates. Msg & data rates may apply. Reply STOP to unsubscribe. Reply HELP for help. Message frequency varies. Terms: <a href="https://jfaproperty.co/privacy#terms" className="text-brand-600 underline">Terms of Service</a> | Privacy: <a href="https://jfaproperty.co/privacy" className="text-brand-600 underline">Privacy Policy</a>
           <span className="text-xs text-gray-500 leading-relaxed">
-I agree to receive marketing SMS messages from JFA Property LLC regarding promotional offers. Reply STOP to unsubscribe. Reply HELP for customer service. Message frequency varies. Message and data rates may apply.
-          </span>
-        </label>
+I agree to receive marketing SMS messages from JFA Property LLC regarding promotional offers. Reply STOP to unsu...          </span>
+        </label>I agree to receive marketing SMS messages from JFA Property LLC regarding promotional offers. Reply STOP to unsubscribe. Reply HELP for help. Msg & data rates may apply. Message frequency varies. Terms: <a href="https://jfaproperty.co/privacy#terms" className="text-brand-600 underline">Terms of Service</a> | Privacy: <a href="https://jfaproperty.co/privacy" className="text-brand-600 underline">Privacy Policy</a>
         <label className="flex items-start gap-2.5 cursor-pointer">
           <input
             type="checkbox"
