@@ -8,6 +8,7 @@ export default function LeadForm({ compact = false }: { compact?: boolean }) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+    setSubmitted(true)
   }
 
   if (submitted) {
